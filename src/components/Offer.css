@@ -1,0 +1,44 @@
+/* Offer.css */
+
+.offer-section {
+  background: linear-gradient(to right, #6a6cff, #a58dff);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.offer-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.offer-section p {
+  font-size: 1.15rem;
+  max-width: 700px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.6;
+  color: #f8f8ff;
+}
+
+.offer-section .btn-secondary {
+  background-color: #fff;
+  color: #6a6cff;
+  border: none;
+  padding: 0.85rem 2.25rem;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.offer-section .btn-secondary:hover {
+  background-color: #e6e6ff;
+  transform: translateY(-2px);
+}

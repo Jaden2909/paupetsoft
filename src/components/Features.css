@@ -1,0 +1,43 @@
+.features {
+  padding: 100px 20px;
+   background: linear-gradient(0deg, #000000, #5c8ccc 130%);
+   text-align: center;
+}
+
+.features-heading {
+  font-size: 3rem;
+  margin-bottom: 60px;
+  color: #ffffff;
+  position: relative;
+}
+
+.features-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.feature-item {
+  flex: 1;
+  min-width: 280px;
+  max-width: 320px;
+  padding: 20px;
+  transform: translateY(0);
+  transition: transform 0.3s ease;
+}
+
+.feature-item:hover {
+  transform: scale(1.05);
+}
+
+.feature-item h3 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 1.1rem;
+  color: #b1bcca;
+}

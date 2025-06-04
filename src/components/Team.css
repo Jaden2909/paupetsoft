@@ -1,0 +1,45 @@
+.team {
+  padding: 100px 20px;
+  background: linear-gradient(to right, #ffffff, #eef2ff);
+  text-align: center;
+}
+
+.team-heading {
+  font-size: 3rem;
+  margin-bottom: 50px;
+  color: #111;
+}
+
+.team-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.team-member {
+  width: 220px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-10px);
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.team-member h4 {
+  font-size: 1.3rem;
+  margin: 0;
+  color: #1f2937;
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: #6b7280;
+}

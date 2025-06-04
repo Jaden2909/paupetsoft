@@ -1,0 +1,28 @@
+.clients-section {
+  padding: 6rem 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.clients-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.clients-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-logo img {
+  max-width: 150px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.client-logo img:hover {
+  filter: grayscale(0%);
+}

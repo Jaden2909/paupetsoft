@@ -1,0 +1,86 @@
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(180deg, #000000 0%, #c5daff 200%);
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.hero-content {
+  max-width: 1000px;
+  animation: fadeInUp 1s ease forwards;
+}
+
+.hero-content h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+.btn-primary {
+  background: #000000;
+  color: white;
+  padding: 15px 40px;
+  font-weight: 700;
+  border-radius: 40px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: background 0.3s ease;
+  display: inline-block;
+}
+
+.btn-primary:hover {
+  background: #000000;
+  cursor: pointer;
+  box-shadow: white 0px 0px 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive top padding for different screen widths */
+@media (max-width: 1024px) {
+  .hero-section {
+    padding-top: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding-top: 90px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-section {
+    padding-top: 110px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    padding-top: 130px;
+  }
+}
